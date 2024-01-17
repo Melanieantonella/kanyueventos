@@ -1,0 +1,55 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Remove default margin */
+  body, h1, h2, h3, p, figure, blockquote, dl, dd, ol, ul {
+    margin: 0;
+  }
+  
+  /* Remove default padding */
+  h1, h2, h3, p, figure, blockquote, dl, dd, ol, ul {
+    padding: 0;
+  }
+  
+  /* Set default font family and size */
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Remove list styles (bullet points, etc.) */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove hyperlink styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Set default cursor for links */
+  a:hover {
+    cursor: pointer;
+  }
+  
+  /* Remove default button styles */
+  button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  /* Additional styles can be added based on your project's needs */
+  
